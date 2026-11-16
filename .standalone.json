@@ -1,0 +1,12 @@
+{
+  "allow": [
+    {
+      "pattern": "/workspace/ambitious",
+      "reason": "The documented default of AMBITIOUS_HOME on a Grok Bot computer. The module contract defines it and shows it in real command output."
+    },
+    {
+      "pattern": "/home/box/agent-data",
+      "reason": "The bot's private data directory on a Grok Bot computer. The module contract names it because every module must refuse paths under it."
+    }
+  ]
+}

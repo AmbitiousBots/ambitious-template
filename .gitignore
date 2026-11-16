@@ -1,0 +1,10 @@
+node_modules/
+dist/
+/release/
+.tmp-*/
+__pycache__/
+proofs/.lake/
+spec/states/
+*_TTrace_*
+.build/
+.DS_Store
