@@ -6,6 +6,10 @@ This repository publishes no release assets. A filename such as `ambitious-templ
 
 ## Unreleased
 
+### Changed
+
+- `.mise.toml` pins Java at Temurin `21.0.13.1+2`, up from `21.0.13+9`. Node `24.22.3`, Python `3.13.18` and the TLA+ tools were already the latest on their lines.
+
 ### Added
 
 - First public GitHub template: the module contract as published in ambitious-kit `kit-v0.2.7`, skill placeholders, agent guides, and the standard open-source files used by existing Ambitious module repositories.

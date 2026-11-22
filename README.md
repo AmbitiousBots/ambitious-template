@@ -71,7 +71,7 @@ Leave [LICENSE](LICENSE), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), [SECURITY.md
 | [CHANGELOG.md](CHANGELOG.md) | Changes to this GitHub template. A module started from it keeps its own changelog. |
 | [.github/](.github/) | Issue and pull request templates. |
 | [.gitignore](.gitignore) | Ignores for the directories a module grows once you adopt the kit. |
-| [.mise.toml](.mise.toml) | Pinned Node, Python, and Java versions, matching the kit's repo-template at `kit-v0.2.7`. |
+| [.mise.toml](.mise.toml) | Pinned Node, Python, and Java versions. Node, Python and the TLA+ tools match the kit's repo-template at `kit-v0.2.7`; Java is one Temurin 21 patch release newer. |
 | [.standalone.json](.standalone.json) | The documented runtime paths that the kit's standalone check is allowed to see. |
 | [.cursor/rules/agent-models.mdc](.cursor/rules/agent-models.mdc) | Model choices per agent role, as used in the existing public module repositories. |
 | `.markdownlint.json`, `.markdownlintignore`, `.markdown-link-check.json` | Config for the Markdown and link checks in [CONTRIBUTING.md](CONTRIBUTING.md). |
